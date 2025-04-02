@@ -3,12 +3,12 @@
 #include "DHT20.h"
 #include "Wire.h"
 
-const char* WIFI_SSID = "ACLAB-IOT";
-const char* WIFI_PASS = "12345678";
+const char* WIFI_SSID = "Iphone 16 pro max";
+const char* WIFI_PASS = "binhvoquoc";
 
 const char* MQTT_SERVER = "app.coreiot.io";
 const int MQTT_PORT = 1883;
-const char* ACCESS_TOKEN = "8qixx7tv7gqd0iw800vz";  
+const char* ACCESS_TOKEN = "YWbAVwOqlX1AUG3CHBgy";  
 
 DHT20 dht20;
 WiFiClient espClient;
@@ -72,7 +72,7 @@ void serverTask(void *pvParameters) {
 }
 
 void SensorTask(void *pvParameters) {
-  Wire.begin(21, 22);
+  Wire.begin();
   dht20.begin();
   while(1)
   {
@@ -121,3 +121,4 @@ void setup() {
 void loop() {
 
 }
+
