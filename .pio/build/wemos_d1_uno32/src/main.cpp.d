@@ -196,4 +196,6 @@
  C:/Users/Nguyen\ Hai\ Anh/.platformio/packages/framework-arduinoespressif32/cores/esp32/cbuf.h \
  lib/TBPubSubClient/src/PubSubClient.h lib/DHT20/DHT20.h \
  C:/Users/Nguyen\ Hai\ Anh/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src/Wire.h \
- C:/Users/Nguyen\ Hai\ Anh/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal.h
+ C:/Users/Nguyen\ Hai\ Anh/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal.h \
+ lib/ArduinoJson/src/ArduinoJson.h lib/ArduinoJson/src/ArduinoJson.hpp \
+ lib/ArduinoJson/src/ArduinoJson/Configuration.hpp
